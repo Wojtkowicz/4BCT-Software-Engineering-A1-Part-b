@@ -10,5 +10,11 @@
         <module name="software_engineering_project_part_b" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="software_engineering_project_part_b" options="--add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
+    </option>
   </component>
 </project>
