@@ -216,7 +216,8 @@ public class Main {
                         "\nStudent Name: " + student.getName() +
                                 "\nAge: " + student.getAge() +
                                 "\nDOB: " + student.getDOB() +
-                                "\nID: " + student.getID());
+                                "\nID: " + student.getID() +
+                                "\nUser Name: " + student.getUsername());
                 if (student.getRegisteredModules() != null) {
                     System.out.println("Modules: " + student.getRegisteredModules().stream().map(Module::getName).collect(Collectors.toList()));
                 } else {
